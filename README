@@ -1,0 +1,4 @@
+This is assignemnt 1 for COSC583. The files of relevence are CBC-ENC.py, CBC-DEC.py, CTR-ENC.py CTR-DEC.py. 
+
+The programs work as intended with the exception of stray bits that will pop up at random during opperation that will cause the entire string of output to differ from the input.
+I have been attempting to remove these for quite a while but to no avail. if you use vim -d <input> <output> you can seen them pop up randomly in testFile2's decryption and often they are of the same value and in diffrent places between decriptions. 
